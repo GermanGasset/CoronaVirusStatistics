@@ -1,0 +1,1169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Country.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="Country.Items" xml:space="preserve">
+    <value>World</value>
+  </data>
+  <data name="Country.Items1" xml:space="preserve">
+    <value>North America</value>
+  </data>
+  <data name="Country.Items2" xml:space="preserve">
+    <value>Europe</value>
+  </data>
+  <data name="Country.Items3" xml:space="preserve">
+    <value>Asia</value>
+  </data>
+  <data name="Country.Items4" xml:space="preserve">
+    <value>South America</value>
+  </data>
+  <data name="Country.Items5" xml:space="preserve">
+    <value>Oceania</value>
+  </data>
+  <data name="Country.Items6" xml:space="preserve">
+    <value>Africa</value>
+  </data>
+  <data name="Country.Items7" xml:space="preserve">
+    <value>USA</value>
+  </data>
+  <data name="Country.Items8" xml:space="preserve">
+    <value>Spain</value>
+  </data>
+  <data name="Country.Items9" xml:space="preserve">
+    <value>Italy</value>
+  </data>
+  <data name="Country.Items10" xml:space="preserve">
+    <value>France</value>
+  </data>
+  <data name="Country.Items11" xml:space="preserve">
+    <value>Germany</value>
+  </data>
+  <data name="Country.Items12" xml:space="preserve">
+    <value>China</value>
+  </data>
+  <data name="Country.Items13" xml:space="preserve">
+    <value>UK</value>
+  </data>
+  <data name="Country.Items14" xml:space="preserve">
+    <value>Iran</value>
+  </data>
+  <data name="Country.Items15" xml:space="preserve">
+    <value>Turkey</value>
+  </data>
+  <data name="Country.Items16" xml:space="preserve">
+    <value>Belgium</value>
+  </data>
+  <data name="Country.Items17" xml:space="preserve">
+    <value>Switzerland</value>
+  </data>
+  <data name="Country.Items18" xml:space="preserve">
+    <value>Netherlands</value>
+  </data>
+  <data name="Country.Items19" xml:space="preserve">
+    <value>Canada</value>
+  </data>
+  <data name="Country.Items20" xml:space="preserve">
+    <value>Brazil</value>
+  </data>
+  <data name="Country.Items21" xml:space="preserve">
+    <value>Portugal</value>
+  </data>
+  <data name="Country.Items22" xml:space="preserve">
+    <value>Austria</value>
+  </data>
+  <data name="Country.Items23" xml:space="preserve">
+    <value>Russia</value>
+  </data>
+  <data name="Country.Items24" xml:space="preserve">
+    <value>Israel</value>
+  </data>
+  <data name="Country.Items25" xml:space="preserve">
+    <value>S. Korea</value>
+  </data>
+  <data name="Country.Items26" xml:space="preserve">
+    <value>Sweden</value>
+  </data>
+  <data name="Country.Items27" xml:space="preserve">
+    <value>Ireland</value>
+  </data>
+  <data name="Country.Items28" xml:space="preserve">
+    <value>India</value>
+  </data>
+  <data name="Country.Items29" xml:space="preserve">
+    <value>Ecuador</value>
+  </data>
+  <data name="Country.Items30" xml:space="preserve">
+    <value>Chile</value>
+  </data>
+  <data name="Country.Items31" xml:space="preserve">
+    <value>Peru</value>
+  </data>
+  <data name="Country.Items32" xml:space="preserve">
+    <value>Norway</value>
+  </data>
+  <data name="Country.Items33" xml:space="preserve">
+    <value>Poland</value>
+  </data>
+  <data name="Country.Items34" xml:space="preserve">
+    <value>Australia</value>
+  </data>
+  <data name="Country.Items35" xml:space="preserve">
+    <value>Japan</value>
+  </data>
+  <data name="Country.Items36" xml:space="preserve">
+    <value>Denmark</value>
+  </data>
+  <data name="Country.Items37" xml:space="preserve">
+    <value>Romania</value>
+  </data>
+  <data name="Country.Items38" xml:space="preserve">
+    <value>Czechia</value>
+  </data>
+  <data name="Country.Items39" xml:space="preserve">
+    <value>Pakistan</value>
+  </data>
+  <data name="Country.Items40" xml:space="preserve">
+    <value>Malaysia</value>
+  </data>
+  <data name="Country.Items41" xml:space="preserve">
+    <value>Philippines</value>
+  </data>
+  <data name="Country.Items42" xml:space="preserve">
+    <value>Saudi Arabia</value>
+  </data>
+  <data name="Country.Items43" xml:space="preserve">
+    <value>Mexico</value>
+  </data>
+  <data name="Country.Items44" xml:space="preserve">
+    <value>Indonesia</value>
+  </data>
+  <data name="Country.Items45" xml:space="preserve">
+    <value>UAE</value>
+  </data>
+  <data name="Country.Items46" xml:space="preserve">
+    <value>Serbia</value>
+  </data>
+  <data name="Country.Items47" xml:space="preserve">
+    <value>Luxembourg</value>
+  </data>
+  <data name="Country.Items48" xml:space="preserve">
+    <value>Panama</value>
+  </data>
+  <data name="Country.Items49" xml:space="preserve">
+    <value>Finland</value>
+  </data>
+  <data name="Country.Items50" xml:space="preserve">
+    <value>Dominican Republic</value>
+  </data>
+  <data name="Country.Items51" xml:space="preserve">
+    <value>Qatar</value>
+  </data>
+  <data name="Country.Items52" xml:space="preserve">
+    <value>Thailand</value>
+  </data>
+  <data name="Country.Items53" xml:space="preserve">
+    <value>Ukraine</value>
+  </data>
+  <data name="Country.Items54" xml:space="preserve">
+    <value>Colombia</value>
+  </data>
+  <data name="Country.Items55" xml:space="preserve">
+    <value>Singapoure</value>
+  </data>
+  <data name="Country.Items56" xml:space="preserve">
+    <value>Belarus</value>
+  </data>
+  <data name="Country.Items57" xml:space="preserve">
+    <value>Greece</value>
+  </data>
+  <data name="Country.Items58" xml:space="preserve">
+    <value>South Africa</value>
+  </data>
+  <data name="Country.Items59" xml:space="preserve">
+    <value>Argentina</value>
+  </data>
+  <data name="Country.Items60" xml:space="preserve">
+    <value>Egypt</value>
+  </data>
+  <data name="Country.Items61" xml:space="preserve">
+    <value>Algeria</value>
+  </data>
+  <data name="Country.Items62" xml:space="preserve">
+    <value>Iceland</value>
+  </data>
+  <data name="Country.Items63" xml:space="preserve">
+    <value>Moldova</value>
+  </data>
+  <data name="Country.Items64" xml:space="preserve">
+    <value>Morocco</value>
+  </data>
+  <data name="Country.Items65" xml:space="preserve">
+    <value>Croatia</value>
+  </data>
+  <data name="Country.Items66" xml:space="preserve">
+    <value>Iraq</value>
+  </data>
+  <data name="Country.Items67" xml:space="preserve">
+    <value>New Zealand</value>
+  </data>
+  <data name="Country.Items68" xml:space="preserve">
+    <value>Hungary</value>
+  </data>
+  <data name="Country.Items69" xml:space="preserve">
+    <value>Estonia</value>
+  </data>
+  <data name="Country.Items70" xml:space="preserve">
+    <value>Slovenia</value>
+  </data>
+  <data name="Country.Items71" xml:space="preserve">
+    <value>Kuwait</value>
+  </data>
+  <data name="Country.Items72" xml:space="preserve">
+    <value>Azerbaijan</value>
+  </data>
+  <data name="Country.Items73" xml:space="preserve">
+    <value>Bahrain</value>
+  </data>
+  <data name="Country.Items74" xml:space="preserve">
+    <value>Lithuania</value>
+  </data>
+  <data name="Country.Items75" xml:space="preserve">
+    <value>Hong Kong</value>
+  </data>
+  <data name="Country.Items76" xml:space="preserve">
+    <value>Armenia</value>
+  </data>
+  <data name="Country.Items77" xml:space="preserve">
+    <value>Bosnia and Herzegovina</value>
+  </data>
+  <data name="Country.Items78" xml:space="preserve">
+    <value>Kazakhstan</value>
+  </data>
+  <data name="Country.Items79" xml:space="preserve">
+    <value>Cameroon</value>
+  </data>
+  <data name="Country.Items80" xml:space="preserve">
+    <value>Uzbekistan</value>
+  </data>
+  <data name="Country.Items81" xml:space="preserve">
+    <value>North Macedonia</value>
+  </data>
+  <data name="Country.Items82" xml:space="preserve">
+    <value>Diamond Princess</value>
+  </data>
+  <data name="Country.Items83" xml:space="preserve">
+    <value>Tunisia</value>
+  </data>
+  <data name="Country.Items84" xml:space="preserve">
+    <value>Bulgaria</value>
+  </data>
+  <data name="Country.Items85" xml:space="preserve">
+    <value>Latvia</value>
+  </data>
+  <data name="Country.Items86" xml:space="preserve">
+    <value>Cuba</value>
+  </data>
+  <data name="Country.Items87" xml:space="preserve">
+    <value>Lebanon</value>
+  </data>
+  <data name="Country.Items88" xml:space="preserve">
+    <value>Cyprus</value>
+  </data>
+  <data name="Country.Items89" xml:space="preserve">
+    <value>Andorra</value>
+  </data>
+  <data name="Country.Items90" xml:space="preserve">
+    <value>Costa Rica</value>
+  </data>
+  <data name="Country.Items91" xml:space="preserve">
+    <value>Afghanistan</value>
+  </data>
+  <data name="Country.Items92" xml:space="preserve">
+    <value>Oman</value>
+  </data>
+  <data name="Country.Items93" xml:space="preserve">
+    <value>Uruguay</value>
+  </data>
+  <data name="Country.Items94" xml:space="preserve">
+    <value>Bangladesh</value>
+  </data>
+  <data name="Country.Items95" xml:space="preserve">
+    <value>Ivory Coast</value>
+  </data>
+  <data name="Country.Items96" xml:space="preserve">
+    <value>Burkina faso</value>
+  </data>
+  <data name="Country.Items97" xml:space="preserve">
+    <value>Albania</value>
+  </data>
+  <data name="Country.Items98" xml:space="preserve">
+    <value>Ghana</value>
+  </data>
+  <data name="Country.Items99" xml:space="preserve">
+    <value>Channel Islands</value>
+  </data>
+  <data name="Country.Items100" xml:space="preserve">
+    <value>Honduras</value>
+  </data>
+  <data name="Country.Items101" xml:space="preserve">
+    <value>Réunion</value>
+  </data>
+  <data name="Country.Items102" xml:space="preserve">
+    <value>Taiwan</value>
+  </data>
+  <data name="Country.Items103" xml:space="preserve">
+    <value>Jordan</value>
+  </data>
+  <data name="Country.Items104" xml:space="preserve">
+    <value>Malta</value>
+  </data>
+  <data name="Country.Items105" xml:space="preserve">
+    <value>San Marino</value>
+  </data>
+  <data name="Country.Items106" xml:space="preserve">
+    <value>Kyrgyzstan</value>
+  </data>
+  <data name="Country.Items107" xml:space="preserve">
+    <value>Mauritius</value>
+  </data>
+  <data name="Country.Items108" xml:space="preserve">
+    <value>Nigeria</value>
+  </data>
+  <data name="Country.Items109" xml:space="preserve">
+    <value>Senegal</value>
+  </data>
+  <data name="Country.Items110" xml:space="preserve">
+    <value>Bolivia</value>
+  </data>
+  <data name="Country.Items111" xml:space="preserve">
+    <value>Palestine</value>
+  </data>
+  <data name="Country.Items112" xml:space="preserve">
+    <value>Montenegro</value>
+  </data>
+  <data name="Country.Items113" xml:space="preserve">
+    <value>Vietnam</value>
+  </data>
+  <data name="Country.Items114" xml:space="preserve">
+    <value>Guinea</value>
+  </data>
+  <data name="Country.Items115" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="Country.Items116" xml:space="preserve">
+    <value>Isle of Man</value>
+  </data>
+  <data name="Country.Items117" xml:space="preserve">
+    <value>DRC</value>
+  </data>
+  <data name="Country.Items118" xml:space="preserve">
+    <value>Sri Lanka</value>
+  </data>
+  <data name="Country.Items119" xml:space="preserve">
+    <value>Mayotte</value>
+  </data>
+  <data name="Country.Items120" xml:space="preserve">
+    <value>Kenya</value>
+  </data>
+  <data name="Country.Items121" xml:space="preserve">
+    <value>Djibouti</value>
+  </data>
+  <data name="Country.Items122" xml:space="preserve">
+    <value>Faeroe Islands</value>
+  </data>
+  <data name="Country.Items123" xml:space="preserve">
+    <value>Venezuela</value>
+  </data>
+  <data name="Country.Items124" xml:space="preserve">
+    <value>Martinique</value>
+  </data>
+  <data name="Country.Items125" xml:space="preserve">
+    <value>Guandeloupe</value>
+  </data>
+  <data name="Country.Items126" xml:space="preserve">
+    <value>Guatemala</value>
+  </data>
+  <data name="Country.Items127" xml:space="preserve">
+    <value>Brunei</value>
+  </data>
+  <data name="Country.Items128" xml:space="preserve">
+    <value>Paraguay</value>
+  </data>
+  <data name="Country.Items129" xml:space="preserve">
+    <value>Gibraltar</value>
+  </data>
+  <data name="Country.Items130" xml:space="preserve">
+    <value>Cambodia</value>
+  </data>
+  <data name="Country.Items131" xml:space="preserve">
+    <value>El Salvador</value>
+  </data>
+  <data name="Country.Items132" xml:space="preserve">
+    <value>Rwanda</value>
+  </data>
+  <data name="Country.Items133" xml:space="preserve">
+    <value>Trinidad and Tobago</value>
+  </data>
+  <data name="Country.Items134" xml:space="preserve">
+    <value>Madagascar</value>
+  </data>
+  <data name="Country.Items135" xml:space="preserve">
+    <value>Monaco</value>
+  </data>
+  <data name="Country.Items136" xml:space="preserve">
+    <value>Aruba</value>
+  </data>
+  <data name="Country.Items137" xml:space="preserve">
+    <value>Mali</value>
+  </data>
+  <data name="Country.Items138" xml:space="preserve">
+    <value>French Guiana</value>
+  </data>
+  <data name="Country.Items139" xml:space="preserve">
+    <value>Liechtenstein</value>
+  </data>
+  <data name="Country.Items140" xml:space="preserve">
+    <value>Togo</value>
+  </data>
+  <data name="Country.Items141" xml:space="preserve">
+    <value>Ethiopia</value>
+  </data>
+  <data name="Country.Items142" xml:space="preserve">
+    <value>Barbados</value>
+  </data>
+  <data name="Country.Items143" xml:space="preserve">
+    <value>Jamaica</value>
+  </data>
+  <data name="Country.Items144" xml:space="preserve">
+    <value>Congo</value>
+  </data>
+  <data name="Country.Items145" xml:space="preserve">
+    <value>Uganda</value>
+  </data>
+  <data name="Country.Items146" xml:space="preserve">
+    <value>French Polinesia</value>
+  </data>
+  <data name="Country.Items147" xml:space="preserve">
+    <value>Sint Maarten</value>
+  </data>
+  <data name="Country.Items148" xml:space="preserve">
+    <value>Liberia</value>
+  </data>
+  <data name="Country.Items149" xml:space="preserve">
+    <value>Bermuda</value>
+  </data>
+  <data name="Country.Items150" xml:space="preserve">
+    <value>Gabon</value>
+  </data>
+  <data name="Country.Items151" xml:space="preserve">
+    <value>Cayman Islands</value>
+  </data>
+  <data name="Country.Items152" xml:space="preserve">
+    <value>Macao</value>
+  </data>
+  <data name="Country.Items153" xml:space="preserve">
+    <value>Bahamas</value>
+  </data>
+  <data name="Country.Items154" xml:space="preserve">
+    <value>Guyana</value>
+  </data>
+  <data name="Country.Items155" xml:space="preserve">
+    <value>Zambia</value>
+  </data>
+  <data name="Country.Items156" xml:space="preserve">
+    <value>Guinea-Bissau</value>
+  </data>
+  <data name="Country.Items157" xml:space="preserve">
+    <value>Benin</value>
+  </data>
+  <data name="Country.Items158" xml:space="preserve">
+    <value>Eritrea</value>
+  </data>
+  <data name="Country.Items159" xml:space="preserve">
+    <value>Tanzania</value>
+  </data>
+  <data name="Country.Items160" xml:space="preserve">
+    <value>Saint Martin</value>
+  </data>
+  <data name="Country.Items161" xml:space="preserve">
+    <value>Myanmar</value>
+  </data>
+  <data name="Country.Items162" xml:space="preserve">
+    <value>Haiti</value>
+  </data>
+  <data name="Country.Items163" xml:space="preserve">
+    <value>Syria</value>
+  </data>
+  <data name="Country.Items164" xml:space="preserve">
+    <value>Libya</value>
+  </data>
+  <data name="Country.Items165" xml:space="preserve">
+    <value>Antigua and Barbuda</value>
+  </data>
+  <data name="Country.Items166" xml:space="preserve">
+    <value>Somalia</value>
+  </data>
+  <data name="Country.Items167" xml:space="preserve">
+    <value>Mozambique</value>
+  </data>
+  <data name="Country.Items168" xml:space="preserve">
+    <value>Angola</value>
+  </data>
+  <data name="Country.Items169" xml:space="preserve">
+    <value>Sudan</value>
+  </data>
+  <data name="Country.Items170" xml:space="preserve">
+    <value>Maldives</value>
+  </data>
+  <data name="Country.Items171" xml:space="preserve">
+    <value>Equatorial Guinea</value>
+  </data>
+  <data name="Country.Items172" xml:space="preserve">
+    <value>Laos</value>
+  </data>
+  <data name="Country.Items173" xml:space="preserve">
+    <value>New Calcedonia</value>
+  </data>
+  <data name="Country.Items174" xml:space="preserve">
+    <value>Dominica</value>
+  </data>
+  <data name="Country.Items175" xml:space="preserve">
+    <value>Fiji</value>
+  </data>
+  <data name="Country.Items176" xml:space="preserve">
+    <value>Mongolia</value>
+  </data>
+  <data name="Country.Items177" xml:space="preserve">
+    <value>Namibia</value>
+  </data>
+  <data name="Country.Items178" xml:space="preserve">
+    <value>Saint Lucia</value>
+  </data>
+  <data name="Country.Items179" xml:space="preserve">
+    <value>Curaçao</value>
+  </data>
+  <data name="Country.Items180" xml:space="preserve">
+    <value>Grenada</value>
+  </data>
+  <data name="Country.Items181" xml:space="preserve">
+    <value>Zimbabwe</value>
+  </data>
+  <data name="Country.Items182" xml:space="preserve">
+    <value>Belize</value>
+  </data>
+  <data name="Country.Items183" xml:space="preserve">
+    <value>Botswana</value>
+  </data>
+  <data name="Country.Items184" xml:space="preserve">
+    <value>Malwi</value>
+  </data>
+  <data name="Country.Items185" xml:space="preserve">
+    <value>Saint Kitts and Nevis</value>
+  </data>
+  <data name="Country.Items186" xml:space="preserve">
+    <value>St. Vincent Grenadies</value>
+  </data>
+  <data name="Country.Items187" xml:space="preserve">
+    <value>Eswatini</value>
+  </data>
+  <data name="Country.Items188" xml:space="preserve">
+    <value>Chad</value>
+  </data>
+  <data name="Country.Items189" xml:space="preserve">
+    <value>Greenland</value>
+  </data>
+  <data name="Country.Items190" xml:space="preserve">
+    <value>Seychelles</value>
+  </data>
+  <data name="Country.Items191" xml:space="preserve">
+    <value>Suriname</value>
+  </data>
+  <data name="Country.Items192" xml:space="preserve">
+    <value>MS Zaandam</value>
+  </data>
+  <data name="Country.Items193" xml:space="preserve">
+    <value>Gambia</value>
+  </data>
+  <data name="Country.Items194" xml:space="preserve">
+    <value>Nepal</value>
+  </data>
+  <data name="Country.Items195" xml:space="preserve">
+    <value>Montserrat</value>
+  </data>
+  <data name="Country.Items196" xml:space="preserve">
+    <value>Cabo Verde</value>
+  </data>
+  <data name="Country.Items197" xml:space="preserve">
+    <value>Turks and Caicos</value>
+  </data>
+  <data name="Country.Items198" xml:space="preserve">
+    <value>Vatican City</value>
+  </data>
+  <data name="Country.Items199" xml:space="preserve">
+    <value>Sierra Leone</value>
+  </data>
+  <data name="Country.Items200" xml:space="preserve">
+    <value>Mauritania</value>
+  </data>
+  <data name="Country.Items201" xml:space="preserve">
+    <value>St. Barth</value>
+  </data>
+  <data name="Country.Items202" xml:space="preserve">
+    <value>Bhutan</value>
+  </data>
+  <data name="Country.Items203" xml:space="preserve">
+    <value>Burundi</value>
+  </data>
+  <data name="Country.Items204" xml:space="preserve">
+    <value>Falkland Islands</value>
+  </data>
+  <data name="Country.Items205" xml:space="preserve">
+    <value>Sao Tome and Principe</value>
+  </data>
+  <data name="Country.Items206" xml:space="preserve">
+    <value>South Sudan</value>
+  </data>
+  <data name="Country.Items207" xml:space="preserve">
+    <value>Anguilla</value>
+  </data>
+  <data name="Country.Items208" xml:space="preserve">
+    <value>British Virgin Islands</value>
+  </data>
+  <data name="Country.Items209" xml:space="preserve">
+    <value>Caribbean Netherlands</value>
+  </data>
+  <data name="Country.Items210" xml:space="preserve">
+    <value>Papua New Guinea</value>
+  </data>
+  <data name="Country.Items211" xml:space="preserve">
+    <value>Timor-Leste</value>
+  </data>
+  <data name="Country.Items212" xml:space="preserve">
+    <value>Saint  Pierre Miquelon</value>
+  </data>
+  <data name="Country.Items213" xml:space="preserve">
+    <value>Yemen</value>
+  </data>
+  <data name="Country.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 389</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Country.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="Country.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 26</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Country.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Country.Name" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="&gt;&gt;Country.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Country.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Country.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="totalInfections.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="totalInfections.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 50</value>
+  </data>
+  <data name="totalInfections.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="totalInfections.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 16</value>
+  </data>
+  <data name="totalInfections.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="totalInfections.Text" xml:space="preserve">
+    <value>Confirmed Cases: </value>
+  </data>
+  <data name="&gt;&gt;totalInfections.Name" xml:space="preserve">
+    <value>totalInfections</value>
+  </data>
+  <data name="&gt;&gt;totalInfections.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;totalInfections.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;totalInfections.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="actualInfetions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 80</value>
+  </data>
+  <data name="actualInfetions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="actualInfetions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 15</value>
+  </data>
+  <data name="actualInfetions.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="actualInfetions.Text" xml:space="preserve">
+    <value>Confirmed Active Cases: </value>
+  </data>
+  <data name="&gt;&gt;actualInfetions.Name" xml:space="preserve">
+    <value>actualInfetions</value>
+  </data>
+  <data name="&gt;&gt;actualInfetions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;actualInfetions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;actualInfetions.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="critical.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 170</value>
+  </data>
+  <data name="critical.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="critical.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 15</value>
+  </data>
+  <data name="critical.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="critical.Text" xml:space="preserve">
+    <value>Critical Cases: </value>
+  </data>
+  <data name="&gt;&gt;critical.Name" xml:space="preserve">
+    <value>critical</value>
+  </data>
+  <data name="&gt;&gt;critical.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;critical.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;critical.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="deaths.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 199</value>
+  </data>
+  <data name="deaths.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="deaths.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 15</value>
+  </data>
+  <data name="deaths.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="deaths.Text" xml:space="preserve">
+    <value>Deaths: </value>
+  </data>
+  <data name="&gt;&gt;deaths.Name" xml:space="preserve">
+    <value>deaths</value>
+  </data>
+  <data name="&gt;&gt;deaths.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deaths.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;deaths.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="todayCases.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 110</value>
+  </data>
+  <data name="todayCases.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="todayCases.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 15</value>
+  </data>
+  <data name="todayCases.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="todayCases.Text" xml:space="preserve">
+    <value>Today Cases: </value>
+  </data>
+  <data name="&gt;&gt;todayCases.Name" xml:space="preserve">
+    <value>todayCases</value>
+  </data>
+  <data name="&gt;&gt;todayCases.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;todayCases.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;todayCases.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="todayDeaths.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 230</value>
+  </data>
+  <data name="todayDeaths.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="todayDeaths.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 15</value>
+  </data>
+  <data name="todayDeaths.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="todayDeaths.Text" xml:space="preserve">
+    <value>Today Deaths: </value>
+  </data>
+  <data name="&gt;&gt;todayDeaths.Name" xml:space="preserve">
+    <value>todayDeaths</value>
+  </data>
+  <data name="&gt;&gt;todayDeaths.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;todayDeaths.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;todayDeaths.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="recovered.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 260</value>
+  </data>
+  <data name="recovered.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="recovered.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 15</value>
+  </data>
+  <data name="recovered.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="recovered.Text" xml:space="preserve">
+    <value>Recovered:
+
+ </value>
+  </data>
+  <data name="&gt;&gt;recovered.Name" xml:space="preserve">
+    <value>recovered</value>
+  </data>
+  <data name="&gt;&gt;recovered.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;recovered.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;recovered.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tests.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 290</value>
+  </data>
+  <data name="tests.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="tests.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 15</value>
+  </data>
+  <data name="tests.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tests.Text" xml:space="preserve">
+    <value>Tests Made: </value>
+  </data>
+  <data name="&gt;&gt;tests.Name" xml:space="preserve">
+    <value>tests</value>
+  </data>
+  <data name="&gt;&gt;tests.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tests.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tests.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="casesPM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 140</value>
+  </data>
+  <data name="casesPM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="casesPM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 15</value>
+  </data>
+  <data name="casesPM.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="casesPM.Text" xml:space="preserve">
+    <value>Cases Per Million: </value>
+  </data>
+  <data name="&gt;&gt;casesPM.Name" xml:space="preserve">
+    <value>casesPM</value>
+  </data>
+  <data name="&gt;&gt;casesPM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;casesPM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;casesPM.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="deathsPM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 320</value>
+  </data>
+  <data name="deathsPM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="deathsPM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 15</value>
+  </data>
+  <data name="deathsPM.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="deathsPM.Text" xml:space="preserve">
+    <value>Deaths Per Million: </value>
+  </data>
+  <data name="&gt;&gt;deathsPM.Name" xml:space="preserve">
+    <value>deathsPM</value>
+  </data>
+  <data name="&gt;&gt;deathsPM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deathsPM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;deathsPM.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="testsPM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 350</value>
+  </data>
+  <data name="testsPM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="testsPM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 15</value>
+  </data>
+  <data name="testsPM.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="testsPM.Text" xml:space="preserve">
+    <value>Tests Per Million: </value>
+  </data>
+  <data name="&gt;&gt;testsPM.Name" xml:space="preserve">
+    <value>testsPM</value>
+  </data>
+  <data name="&gt;&gt;testsPM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;testsPM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;testsPM.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="InfoBttn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 12</value>
+  </data>
+  <data name="InfoBttn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 25</value>
+  </data>
+  <data name="InfoBttn.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="InfoBttn.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;InfoBttn.Name" xml:space="preserve">
+    <value>InfoBttn</value>
+  </data>
+  <data name="&gt;&gt;InfoBttn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InfoBttn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InfoBttn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="graphBttn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 450</value>
+  </data>
+  <data name="graphBttn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <data name="graphBttn.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="graphBttn.Text" xml:space="preserve">
+    <value>Graph</value>
+  </data>
+  <data name="&gt;&gt;graphBttn.Name" xml:space="preserve">
+    <value>graphBttn</value>
+  </data>
+  <data name="&gt;&gt;graphBttn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;graphBttn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;graphBttn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>429, 482</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>900, 200</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Covid-19 Statistics</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainDisplay</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

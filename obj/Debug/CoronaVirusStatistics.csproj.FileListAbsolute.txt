@@ -1,0 +1,16 @@
+C:\Users\germa\source\repos\CoronaVirusStatistics\bin\Debug\CoronaVirusStatistics.exe.config
+C:\Users\germa\source\repos\CoronaVirusStatistics\bin\Debug\CoronaVirusStatistics.exe
+C:\Users\germa\source\repos\CoronaVirusStatistics\bin\Debug\CoronaVirusStatistics.pdb
+C:\Users\germa\source\repos\CoronaVirusStatistics\obj\Debug\CoronaVirusStatistics.csprojAssemblyReference.cache
+C:\Users\germa\source\repos\CoronaVirusStatistics\obj\Debug\CoronaVirusStatistics.Properties.Resources.resources
+C:\Users\germa\source\repos\CoronaVirusStatistics\obj\Debug\CoronaVirusStatistics.csproj.GenerateResource.cache
+C:\Users\germa\source\repos\CoronaVirusStatistics\obj\Debug\CoronaVirusStatistics.csproj.CoreCompileInputs.cache
+C:\Users\germa\source\repos\CoronaVirusStatistics\obj\Debug\CoronaVirusStatistics.exe
+C:\Users\germa\source\repos\CoronaVirusStatistics\obj\Debug\CoronaVirusStatistics.pdb
+C:\Users\germa\source\repos\CoronaVirusStatistics\bin\Debug\CoronaVirusStatistics.exe.manifest
+C:\Users\germa\source\repos\CoronaVirusStatistics\bin\Debug\CoronaVirusStatistics.application
+C:\Users\germa\source\repos\CoronaVirusStatistics\obj\Debug\CoronaVirusStatistics.exe.manifest
+C:\Users\germa\source\repos\CoronaVirusStatistics\obj\Debug\CoronaVirusStatistics.application
+C:\Users\germa\source\repos\CoronaVirusStatistics\obj\Debug\CoronaVirusStatistics.MainDisplay.resources
+C:\Users\germa\source\repos\CoronaVirusStatistics\obj\Debug\CoronaVirusStatistics.GraphsForm.resources
+C:\Users\germa\source\repos\CoronaVirusStatistics\obj\Debug\CoronaVirusStatistics.TrustInfo.xml
